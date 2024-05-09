@@ -1,5 +1,5 @@
 echo "Downloading latest postman"; 
-wget https://dl.pstmn.io/download/latest/linux64 -O postman.tar.gz;
+wget -O https://dl.pstmn.io/download/latest/linux64 -O postman.tar.gz;
 
 echo "Installing Postman"
 echo "Extracting to /opt folder";
